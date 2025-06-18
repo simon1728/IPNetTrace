@@ -6,8 +6,8 @@
     "Accept-Encoding": "gzip, deflate, sdch",
     "Accept-Language": "en-US,en;q=0.8",
     "Host": "httpbin.org",
-    "User-Agent": "Your-User-Agent"
+    "User-Agent": "User-Agent"
   },
-  "origin": "Your-IP-Address",
+  "origin": "IP-Address",
   "url": "https://httpbin.org/get"
 }
