@@ -19,12 +19,12 @@ local function getIPAddress(req)
 
     if reset and reset.Body then
         -- Attempt to decode the JSON response
-        local ok, data = pcall(function()
+        local lok, data = pcall(function()
             return HttpService:JSONDecode(reset.Body)
         end)
 
         -- If JSON parsing is successful and 'origin' field exists
-        if ok and data and data.origin then
+        if lok and data and data.origin then
             Output("IP Address: " .. data.origin)
             return data.origin -- Return the extracted IP address
         else
