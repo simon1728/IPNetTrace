@@ -1,4 +1,4 @@
-local getIP = require(___) -- detect IP
+local getIP = require(___) -- detect IPmodule
 
 --[[ ex
  local success, env = pcall(getfenv, 1)
